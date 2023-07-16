@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="main">
+        <footer>
+            <div id="footer-container">
+                <a href="#" id="logo">
+                    <h1>Time<span>Left</span></h1>
+                </a>
+                <div id="user-nav">
+                    <ul id="nav">
+                        <li class="nav-item">
+                            <a href="">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">Minha Agenda</a>
+                        </li>
+                    </ul>
+                    <nav id="login">
+                        <img src="assets/img/user.png" alt="user-icon">
+                        <span>
+                            MINHA CONTA
+                            <br>
+                            <strong>
+                                <a href="">ENTRAR</a> /
+                                <a href="">CADASTRAR</a>
+                            </strong>
+                        </span>
+                    </nav>
+                </div>
+                <button id="mobile-btn-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <nav id="mobile-hamburguer-menu">
+                <ul id="nav-mobile">
+                    <li class="nav-item-mb">
+                        <a href="">
+                            <i class="fa-solid fa-house"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            Minha Agenda
+                        </a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="">
+                            <i class="fa-solid fa-user"></i>
+                            Minha conta
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </footer>
+        <main>
+            <section id="main-content">
+                <div id="tables-container">
+                    <div class="data-table form-container">
+                        <div class="table-btn btn-footer">Adicionar tarefa</div>
+                        <div id="create-task-container" class="table-container table-show">
+                            <!-- button with fieldset -->
+                            <form action="">
+                                <div id="input-container">
+                                    <fieldset class="create-task-fieldset" form="text">
+                                        <legend class="">Titulo*</legend>
+                                        <label for="title-task" class="text-placehoder required">Titulo</label>
+                                        <input type="text" id="title-task" class="create-task-input" name="title-task" required>
+                                    </fieldset>
+
+                                    <fieldset class="create-task-fieldset" form="date">
+                                        <legend class="legend-item-focus">Data*</legend>
+                                        <label for="date-task" class="text-placehoder input-focus required">Data</label>
+                                        <input type="date" class="date-input" id="date-task" name="">
+                                    </fieldset>
+
+                                    <fieldset class="create-task-fieldset" form="time">
+                                        <legend class="legend-item-focus">Horario*</legend>
+                                        <label for="time-task" class="text-placehoder input-focus required">Horario</label>
+                                        <input type="time" class="date-input" id="time-task">
+                                    </fieldset>
+
+                                    <fieldset class="create-task-fieldset" form="time">
+                                        <legend class="legend-item-focus">Duração</legend>
+                                        <label for="duration-task" class="text-placehoder input-focus">Duração</label>
+                                        <input type="time" class="date-input" id="duration-task" value="00:00">
+                                    </fieldset>
+                                </div>
+
+                                <fieldset class="create-task-fieldset" id="obs-area" form="text-area">
+                                    <legend class="">Descrição</legend>
+                                    <label for="obs-text" class="text-placehoder">Descrição</label>
+                                    <textarea name="obs-text" id="obs-text" cols="90" rows="1"></textarea>
+                                </fieldset>
+
+                                <div class="container-check-box">
+                                    <div class="check-item">
+                                        <input type="checkbox" id="check-loop" name="loop-task">
+                                        <label for="check-loop">Repetir essa tarefa novamente</label>
+                                    </div>
+                            
+                                    <div id="check-container">
+                                        <div class="check-item">
+                                            <input type="checkbox" id="seg-check" name="loop-task">
+                                            <label for="seg-check">Seg</label>
+                                        </div>
+                                        
+                                        <div class="check-item">
+                                            <input type="checkbox" id="ter-check" name="loop-task">
+                                            <label for="ter-check">Ter</label>
+                                        </div>
+
+                                        <div class="check-item">
+                                            <input type="checkbox" id="qua-check" name="loop-task">
+                                            <label for="qua-check">Qua</label>
+                                        </div>
+
+                                        <div class="check-item">
+                                            <input type="checkbox" id="qui-check" name="loop-task">
+                                            <label for="qui-check">Qui</label>
+                                        </div>
+
+                                        <div class="check-item">
+                                            <input type="checkbox" id="sex-check" name="loop-task">
+                                            <label for="sex-check">Sex</label>
+                                        </div>
+
+                                        <div class="check-item">
+                                            <input type="checkbox" id="sab-check" name="loop-task">
+                                            <label for="sab-check">Sab</label>
+                                        </div>
+
+                                        <div class="check-item">
+                                            <input type="checkbox" id="dom-check" name="loop-task">
+                                            <label for="dom-check">Dom</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="container-btn-create-task">
+                                    <button type="submit" class="btn-green">Criar Tarefa</button>
+                                    <button type="reset" class="btn-yellow">Limpar campos</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <span>Suas Tarefas</span>
+                    <hr style="width: 100%;">
+                    <!-- tables data-task -->
+                    <div class="data-table" id="daily-tasks">
+                        <div class="table-btn">Hoje</div>
+                        <div class="table-container table-show">
+                            <div class="informative">
+                                <div class="circle-info" style="background-color: #eced87;"></div>
+                                <span>Pendente</span>
+                                <div class="circle-info" style="background-color: #ff9e8e;"></div>
+                                <span>Atrasada</span>
+                                <div class="circle-info" style="background-color: #aeeca8;"></div>
+                                <span>Concluida</span>
+                            </div>
+                            <div class="info-edit-task">Para maiores ações clique na tarefa desejada.</div>
+                            <div id="container-daily-tasks"></div>
+                        </div>
+                    </div>
+
+                    <div class="data-table">
+                        <div class="table-btn">Essa Semana</div>
+
+                        <div class="table-container table-show">
+                            <div class="informative">
+                                <div class="circle-info" style="background-color: #eced87;"></div>
+                                <span>Pendente</span>
+                                <div class="circle-info" style="background-color: #ff9e8e;"></div>
+                                <span>Atrasada</span>
+                                <div class="circle-info" style="background-color: #aeeca8;"></div>
+                                <span>Concluida</span>
+                            </div>
+                            <div class="info-edit-task">Para maiores ações clique na tarefa desejada.</div>
+                            <div class="new-task" id="seg">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Seg</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                            <div class="new-task" id="ter">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Ter</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                            <div class="new-task" id="qua">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Qua</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                            <div class="new-task" id="qui">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Qui</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                            <div class="new-task" id="sex">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Sex</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                            <div class="new-task" id="sab">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Sab</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                            <div class="new-task" id="dom">
+                                <div class="time-task">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                    <span class="week-day">Dom</span>
+                                </div>
+                                <div class="task-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/elements.js"></script>
+</body>
+</html>
