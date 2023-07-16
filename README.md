@@ -16,5 +16,9 @@ Responsividade: A aplicação foi desenvolvida com foco na responsividade, permi
 Interface Intuitiva: A interface da agenda foi projetada para ser simples e intuitiva, facilitando o uso mesmo para aqueles que não têm familiaridade com aplicativos de gerenciamento de tarefas. A disposição clara das informações e as cores distintas tornam a navegação e a identificação das tarefas uma tarefa descomplicada.
 
 # Observações
-Este é o front-end desta aplicação. para editar ou adicionar uma logica adicional relacionadas as tarefas presentes na aplicação basta ir no arquivo "assets/js/app.js e localizar o array "tasks" e fazer as alterações desejadas.
+Este é o front-end desta aplicação. para editar ou adicionar uma logica adicional relacionadas as tarefas renderizadas nesta aplicação basta ir no arquivo "assets/js/app.js" e localizar o array "tasks" e fazer as alterações desejadas.
+
 ![image](https://github.com/glauber-honorato-paniago/responsive-agenda-in-HTML-CSS-JS/assets/132853527/2bc874d7-57fe-4365-9417-fac83687541f)
+
+
+**Futuramente o back-end dessa aplicação sera adicionado neste repositorio, juntamente com as alterações do front-end para o consumo da api do back-end.**
