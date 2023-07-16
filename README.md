@@ -3,6 +3,8 @@
 
 ![image](https://github.com/glauber-honorato-paniago/responsive-agenda-in-HTML-CSS-JS/assets/132853527/6b5dd332-351f-4cb0-b68c-8c333151db7a)
 
+![image](https://github.com/glauber-honorato-paniago/agenda-resposiva-em-HTML-CSS-JS/assets/132853527/622c21c4-b00a-4d7e-bb6b-f5978d262486)
+
 ![image](https://github.com/glauber-honorato-paniago/responsive-agenda-in-HTML-CSS-JS/assets/132853527/66b94a74-81de-43dd-8684-1afca5b559ed)
 
 Este projeto é uma agenda desenvolvida usando HTML, CSS e JavaScript, criada com o objetivo de auxiliar na organização de tarefas de forma visualmente intuitiva. A aplicação possui um design responsivo, adaptando-se de maneira elegante a diferentes dispositivos, desde desktops até dispositivos móveis.
